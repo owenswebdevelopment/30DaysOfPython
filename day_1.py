@@ -1,3 +1,5 @@
+import math
+
 #Check the python version you are using
 #Open the python interactive shell and do the following operations. The operands are 3 and 4.
 #addition(+)
@@ -31,3 +33,10 @@ print(type([1, 2, 3, 4, 5])) #integer
 print(type((1, 2, 3, 2.3, 5))) #list
 print(type({'Owen': 'first name'})) #dictionary
 print(type({.5, 2, 'owen'}))
+
+
+x1, y1 = 2, 3
+x2, y2 = 10, 8
+
+distance = math.sqrt((x2 - x1)**2 + (y2 -y1)**2) #put everthing in
+print(distance)
