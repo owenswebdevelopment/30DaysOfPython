@@ -30,3 +30,18 @@ print('a / b = ', division)
 print('a % b = ', remainder)
 print('a // b = ', floor_division)
 print('a ** b = ', exponential)
+
+
+num_one = 2
+num_two = 4
+
+total = num_one + num_two
+diff = num_one - num_two
+division = num_one / num_two
+multi = num_one * num_two
+remainder = num_one % num_two
+
+print('total:', total)
+print('diff:', diff)
+print('multi:', multi)
+print('remainder:', remainder)
