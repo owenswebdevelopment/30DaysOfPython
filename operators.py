@@ -45,3 +45,14 @@ print('total:', total)
 print('diff:', diff)
 print('multi:', multi)
 print('remainder:', remainder)
+
+
+
+radius = 10
+radius_of_circle = 3.14 * radius **2
+print("Area of circle:", radius_of_circle)
+
+length = 10
+width = 20
+area_of_rectangle = length * width
+print("Area of Rectangle", area_of_rectangle)
