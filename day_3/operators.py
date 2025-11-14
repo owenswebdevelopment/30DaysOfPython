@@ -96,3 +96,19 @@ print("1 is 1", 1 is 1)
 print("1 is not 1", 1 is not 2)
 print("O in Owen", "o" in "Owen")
 print("4 is 2 ** 2", 4 is 2 ** 2)
+
+
+#Logical operator
+
+print(3 > 2 and 4 < 10)
+print(10 > 30 and 4 < 10)
+print("true and true", True and True)
+print(10 > 30 and 4 < 10)
+print(10 > 30 or 4 < 10)
+print(10 > 2 or 4 < 1)
+print(not 3 > 1)
+print(not 3 < 1)
+print(not False)
+print(not True)
+print(not not True)
+print(not not False)
