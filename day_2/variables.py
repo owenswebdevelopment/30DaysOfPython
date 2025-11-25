@@ -78,8 +78,6 @@ floor_division = num_one//num_two
 print(floor_division)
 
 
-
-
 try:
     circle_radius = float(input("What is the radius: "))
     area = math.pi * (circle_radius ** 2)
